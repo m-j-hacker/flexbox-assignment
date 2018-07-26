@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
-  border: 2px solid black;
+
 }
 
 /* header */
@@ -111,7 +111,7 @@ header nav a:last-child {
 header .logo {
   display: flex;
   flex-flow: row-reverse;
-  margin:
+
  }
 
 /* cta */
@@ -206,4 +206,90 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+
+.headline {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  }
+
+.headline img {
+}
+
+.headline .text-content {
+  margin-top: 20px;
+}
+
+.headline .text-content h1 {
+  font-size: 20pt;
+}
+
+.middle {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+
+
+.middle .text-content {
+  border: 1px solid black;
+  background-color: #f4f3f4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 48%;
+}
+
+.middle .button {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  width: 40%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.bottom {
+  display: flex;
+	justify-content: space-between;
+  }
+
+.bottom .text-content {
+  display: flex;
+  flex-flow: column wrap;
+	margin-top: 20px;
+  width: 48%;
+}
+
+.bottom .text-content p {
+  line-height: 1.25;
+	margin-bottom: 20px;
+}
+
+.bottom .text-content ul {
+	line-height: 1.75;
+	list-style: disc;
+	list-style-position: inside;
+  padding-left: 0;
+
+}
+
+.bottom .services-info-img {
+  display: flex;
+  flex-flow: row-reverse;
+	margin: 10px;
+	margin-top: 20px;
+  width: 48%;
 }
